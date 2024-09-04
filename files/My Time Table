@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    		<title>My Time Table</title>
+	</head>
+	<body>
+
+		<h1> My Time Table </h1>
+		<hr>
+    		<table style="border: 1px purple">
+			<colgroup>
+				<col style="width: 200px; background-color: #9cb1f7;
+\
+">
+            			<col span="5" style="width: 125px; background-color: #9cf7dd;">
+            			<col style="width: 125px; background-color: #c2a2f8;">
+                        <col style="width: 125px; background-color: #f0a2f8;">
+            			<col style="width: 125px;">
+            			<col style="width: 125px;">
+            			<col style="width: 125px;">
+            			<col style="width: 125px;">
+            			<col style="width: 125px;">
+			</colgroup>
+        		<tr>
+            			<td style="border: 1px solid black;"></td>
+           			<th style="border: 1px solid black;">Monday</th>
+           			<th style="border: 1px solid black;">Tuesday</th>
+           			<th style="border: 1px solid black;">Wednesday</th>
+           			<th style="border: 1px solid black;">Thursday</th>
+           			<th style="border: 1px solid black;">Friday</th>
+           			<th style="border: 1px solid black;">Saturday</th>
+           			<th style="border: 1px solid black;">Sunday</th>
+        		</tr>
+       			<tr>
+            			<td style="border: 1px solid black;">7:30-7:50 A.M.</td>
+            			<td style="border: 1px solid black;">Flag Ceremony</td>
+            			<td style="border: 1px solid black;">Homeroom</td>
+            			<td style="border: 1px solid black;">Homeroom</td>
+            			<td style="border: 1px solid black;">Homeroom</td>
+            			<td style="border: 1px solid black;">Homeroom</td>
+            			<td style="border: 1px solid black;">Waking up</td>
+            			<td style="border: 1px solid black;">Waking up</td>
+        		</tr>
+       			<tr>
+            			<td style="border: 1px solid black;">7:50-8:40 A.M.</td>
+            			<td style="border: 1px solid black;">Homeroom</td>
+            			<td rowspan="2" style="border: 1px solid black;">Biology 1</td>
+            			<td style="border: 1px solid black;">ComSci 3 Laboratory</td>
+            			<td rowspan="2" style="border: 1px solid black;">Chemistry 1</td>
+            			<td rowspan="2" style="border: 1px solid black;">Physics 1</td>
+            			<td style="border: 1px solid black;">Making bed/breakfast</td>
+            			<td style="border: 1px solid black;">Making bed/breakfast </td>
+        		</tr>
+       			<tr>
+            			<td style="border: 1px solid black;">8:40-9:30 A.M.</td>
+            			<td style="border: 1px solid black;">English 3</td>
+            			<td style="border: 1px solid black;">Filipino 3</td>
+            			<td style="border: 1px solid black;">Me-time</td>
+            			<td style="border: 1px solid black;">Me-time</td>
+				
+        		</tr>
+       			<tr>
+            			<td style="border: 1px solid black;">9:30-9:45 A.M.</td>
+            			<td colspan="5" style="background-color: #f9ca92; border: 1px solid black">
+					<center>
+						<p> Recess </p> 
+					</center> 
+				</td   
+				<td style="border: 1px solid black;"></td>         	
+				<td style="border: 1px solid black;">bathing/self-care</td>
+                <td style="border: 1px solid black;">bathing/self-care</td>
+
+            			
+        		</tr>
+       			<tr>
+            			<td style="border: 1px solid black;">9:45-10:35 A.M.</td>
+            			<td style="border: 1px solid black;">Social Science 3</td>
+            			<td style="border: 1px solid black;">Physics 1</td>
+            			<td style="border: 1px solid black;">ValEd 3</td>
+            			<td rowspan="2" style="border: 1px solid black;">ComSci 3 Laboratory</td>
+            			<td rowspan="2" style="border: 1px solid black;">Statistics 1</td>
+            			<td rowspan="2" style="border: 1px solid black;">Chill time(movies, shows, etc.)</td>
+                        <td rowspan="3" style="border: 1px solid black;">Chill time</td>
+
+            			
+				
+        		</tr>
+       			<tr>
+            			<td style="border: 1px solid black;">10:35-11:25 A.M.</td>
+            			<td style="border: 1px solid black;">Health 3</td>
+            			<td style="border: 1px solid black;">English 3</td>
+            			<td style="border: 1px solid black;">Social Science 3</td>
+
+        		</tr>
+       			<tr>
+            			<td style="border: 1px solid black;">11:25-12:15 P.M.</td>
+            			<td colspan="5" style="background-color: #f6ddb3; border: 1px solid black;">
+					<center>
+						<p> Lunch </p> 
+					</center> 
+				</td>
+				<td style="border: 1px solid black;">Brunch</td>
+            			
+        		</tr>
+       			<tr>
+            			<td style="border: 1px solid black;">12:15-1:05 P.M.</td>
+            			<td style="border: 1px solid black;">Biology 1</td>
+            			<td style="border: 1px solid black;">Social Science 3</td>
+            			<td style="border: 1px solid black;">English 3</td>
+            			<td style="border: 1px solid black;">PE 3</td>
+            			<td style="border: 1px solid black;"></td>
+            			<td style="border: 1px solid black;">Washing dishes</td>
+            			<td style="border: 1px solid black;">Lunch</td>
+				
+        		</tr>
+       			<tr>
+            			<td style="border: 1px solid black;">1:05-1:55 P.M.</td>
+            			<td style="border: 1px solid black;">Chemistry 1</td>
+            			<td style="border: 1px solid black;">Filipino 3</td>
+            			<td style="border: 1px solid black;">Statistics 1</td>
+            			<td style="border: 1px solid black;">ValEd 3</td>
+            			<td style="border: 1px solid black;"></td>
+            			<td style="border: 1px solid black;">Nap time</td>
+            			<td style="border: 1px solid black;">Nap time</td>
+				
+        		</tr>
+       			<tr>
+            			<td style="border: 1px solid black;">1:55-2:10 P.M.</td>
+            			<td colspan="5" style="background-color: #f9ca92; border: 1px solid black;">
+					<center>
+						<p> Recess </p> 
+					</center> 
+				</td>
+            			<td style="border: 1px solid black;"> Quick snack</td>
+            			<td rowspan="2"style="border: 1px solid black;">Preparing school bag/needed materials</td>
+				
+        		</tr>
+       			<tr>
+            			<td style="border: 1px solid black;">2:10-3:00 P.M.</td>
+            			<td style="border: 1px solid black;">Filipino 3</td>
+            			<td style="border: 1px solid black;"></td>
+            			<td style="border: 1px solid black;">Math 3</td>
+            			<td style="border: 1px solid black;">Music 3</td>
+            			<td style="border: 1px solid black;"></td>
+            			<td rowspan="2" style="border: 1px solid black;">Back to assessments</td>
+				
+        		</tr>
+       			<tr>
+            			<td style="border: 1px solid black;">3:00-3:50 P.M.</td>
+            			<td style="border: 1px solid black;">Math 3</td>
+            			<td style="border: 1px solid black;"></td>
+            			<td rowspan="2" style="border: 1px solid black;">ALA</td>
+            			<td style="border: 1px solid black;">Math 3</td>
+            			<td style="border: 1px solid black;"></td>
+            			<td rowspan="2" style="border: 1px solid black;">Finalizing requirements</td>
+            		
+				
+        		</tr>
+       			<tr>
+            			<td style="border: 1px solid black;">3:50-4:40 P.M.</td>
+            			<td style="border: 1px solid black;"></td>
+            			<td style="border: 1px solid black;"></td>
+            			<td style="border: 1px solid black;"></td>
+            			<td style="border: 1px solid black;"></td>
+            			<td style="border: 1px solid black;">Finalizing requirements</td>
+            			
+
+				
+        		</tr>
+
+    		</table>
+	</body>
+</html>
